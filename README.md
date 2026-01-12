@@ -2,7 +2,7 @@
 
 ## 📌 Caso de negocio
 El abandono de clientes (customer churn) es uno de los principales problemas en el sector financiero, especialmente en productos como las tarjetas de crédito, donde la rentabilidad depende directamente del nivel de uso y de la relación a largo plazo con el cliente.
-Cuando un cliente deja de utilizar su tarjeta o decide cancelar el producto, la entidad pierde no solo los ingresos asociados a las transacciones, sino también el potencial de rentabilidad futura. Además, captar nuevos clientes suele ser significativamente más costoso que retener a los existentes.
+Cuando un cliente deja de utilizar su tarjeta o decide cancelar el producto, la entidad bancaria no solo pierde los ingresos asociados a las transacciones, sino también el potencial de rentabilidad futura. Además, captar nuevos clientes suele ser significativamente más costoso que retener a los existentes.
 
 Este proyecto tiene como objetivo desarrollar un modelo de predicción de abandono de clientes de tarjeta de crédito, utilizando información demográfica y, especialmente, variables de comportamiento y uso del producto. De esta forma, permitirá a la entidad adelantarse a la decisión de abandono de sus clientes, actuando en consecuencia para maximizar su relación en el tiempo y minimizar la pérdida de ingresos generados por el abandono.
 
@@ -18,6 +18,8 @@ Los objetivos principales de este proyecto son:
 
 
 ## 📁 Estructura del Proyecto
+
+```
 credit_card_churn/
 │
 ├── data/
@@ -37,8 +39,11 @@ credit_card_churn/
 ├── README.md
 └── requirements.txt
 
+```
+
 ## Descripción del Dataset
-This dataset, disponible en Kaggle en formato CSV, contiene información de clientes de tarjetas de crédito de una entidad bancaria, donde cada fila representa un cliente e incluye variables demográficas, socioeconómicas y, principalmente, variables relacionadas con el uso de la tarjeta, la actividad transaccional y la relación del cliente con el banco durante los últimos 12 meses. 
+Este dataset, disponible en Kaggle en formato CSV, contiene información de clientes de tarjetas de crédito de una entidad financiera, donde cada observación representa un cliente individual, identificado por un código único, e incluye información sobre su relación con la entidad, el nivel de actividad, el uso del crédito y las transacciones realizadas en los últimos 12 meses.
+La variable objetivo del proyecto es Attrition_Flag, que indica si el cliente continúa activo o si ha abandonado el producto.
 
 ### Variables del Dataset
 - **CLIENTNUM**: identificador único del cliente.
@@ -62,6 +67,7 @@ This dataset, disponible en Kaggle en formato CSV, contiene información de clie
 - **Total_Trans_Ct**: número total de transacciones realizadas en los últimos 12 meses.
 - **Total_Amt_Chng_Q4_Q1**: variación del importe de las transacciones entre el cuarto y el primer trimestre.
 - **Total_Ct_Chng_Q4_Q1**: variación del número de transacciones entre el cuarto y el primer trimestre.
+
 
 
 
