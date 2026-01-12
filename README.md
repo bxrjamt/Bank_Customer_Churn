@@ -49,27 +49,51 @@ Cada observación un cliente individual, identificado por un código único, e i
 La variable objetivo es Attrition_Flag, que indica si el cliente permanece activo (Existing Customer) o si ha abandonado el servicio de tarjeta de crédito (Attrited Customer). El conjunto de datos presenta un desbalance de clases, con aproximadamente un 84% de clientes activos frente a un 16% de clientes que han abandonado.
 
 ### Variables
-- **CLIENTNUM**: identificador único del cliente.
+
+- **CLIENTNUM**: número de cuenta del cliente. 
 - **Attrition_Flag**: estado del cliente (*Existing Customer* o *Attrited Customer*).
 - **Customer_Age**: edad del cliente.
 - **Gender**: género del cliente (M: masculino, F: femenino).
 - **Dependent_count**: número de personas dependientes del cliente.
-- **Education_Level**: nivel educativo del cliente.
-- **Marital_Status**: estado civil del cliente.
-- **Income_Category**: categoría de ingresos del cliente.
-- **Card_Category**: tipo de tarjeta de crédito contratada.
-- **Months_on_Book**: antigüedad del cliente en la entidad (en meses).
-- **Total_Relationship_Count**: número total de productos contratados con el banco.
-- **Months_Inactive_12_mon**: número de meses de inactividad en los últimos 12 meses.
-- **Contacts_Count_12_mon**: número de contactos entre el banco y el cliente en los últimos 12 meses.
-- **Credit_Limit**: límite de crédito asignado a la tarjeta.
-- **Total_Revolving_Bal**: saldo de crédito utilizado.
-- **Avg_Open_To_Buy**: crédito disponible (límite menos saldo utilizado).
-- **Avg_Utilization_Ratio**: porcentaje de utilización del crédito disponible.
-- **Total_Trans_Amt**: importe total de las transacciones realizadas en los últimos 12 meses.
+- **Education_Level**: nivel educativo del cliente (Sin educación, Escuela Secundaria, Graduado, Universidad, Postgrado, Doctorado y Desconocido). 
+- **Marital_Status**: estado civil del cliente (Soltero, Casado, Divorciado y Desconocido).
+- **Income_Category**: categoría de ingresos del cliente (Menos de $40K, $40K-$60K, $60K-$80K, $80K-$120K, $120K+ y Desconocido).  
+- **Card_Category**: tipo de tarjeta utilizada (Blue, Silver, Gold y Platinum). 
+- **Months_on_Book**: tiempo como cliente (en meses)
+- **Total_Relationship_Count**: número de productos utilizados por los clientes en el banco.  
+- **Months_Inactive_12_mon**: periodo de inactividad en los últimos 12 meses.  
+- **Contacts_Count_12_mon**: número de interacciones entre el banco y el cliente en los últimos 12 meses.  
+- **Credit_Limit**: límite nominal de transacción de la tarjeta de crédito en un periodo. 
+- **Total_Revolving_Bal**: fondos totales utilizados en un periodo.  
+- **Avg_Open_To_Buy**: diferencia entre el límite de crédito asignado a la cuenta del titular y el saldo actual.
+- **Avg_Utilization_Ratio**: porcentaje de utilización de la tarjeta de crédito.
+- **Total_Trans_Amt**: importe total de las transacciones en los últimos 12 meses.
 - **Total_Trans_Ct**: número total de transacciones realizadas en los últimos 12 meses.
-- **Total_Amt_Chng_Q4_Q1**: variación del importe de las transacciones entre el cuarto y el primer trimestre.
-- **Total_Ct_Chng_Q4_Q1**: variación del número de transacciones entre el cuarto y el primer trimestre.
+- **Total_Amt_Chng_Q4_Q1**: incremento del importe de transacciones del cliente entre el cuarto y el primer trimestre.  
+- **Total_Ct_Chng_Q4_Q1**: incremento del número de transacciones del cliente entre el cuarto y el primer trimestre. 
+
+CLIENTNUM: número de cuenta del cliente.  
+Attrition_Flag: estado del cliente (Existente y Abandonado).  
+Customer_Age: edad del cliente.  
+Gender: género del cliente (M para masculino y F para femenino).  
+Dependent_count: número de dependientes del cliente.  
+Education_Level: nivel educativo del cliente (Sin educación, Escuela Secundaria, Graduado, Universidad, Postgrado, Doctorado y Desconocido).  
+Marital_Status: estado civil del cliente (Soltero, Casado, Divorciado y Desconocido).  
+Income_Category: categoría de ingresos del cliente (Menos de $40K, $40K-$60K, $60K-$80K, $80K-$120K, $120K+ y Desconocido).  
+Card_Category: tipo de tarjeta utilizada (Blue, Silver, Gold y Platinum).  
+Months_on_Book: tiempo como cliente (en meses).  
+Total_Relationship_Count: número de productos utilizados por los clientes en el banco.  
+Months_Inactive_12_mon: periodo de inactividad en los últimos 12 meses.  
+Contacts_Count_12_mon: número de interacciones entre el banco y el cliente en los últimos 12 meses.  
+Credit_Limit: límite nominal de transacción de la tarjeta de crédito en un periodo.  
+Total_Revolving_Bal: fondos totales utilizados en un periodo.  
+Avg_Open_To_Buy: diferencia entre el límite de crédito asignado a la cuenta del titular y el saldo actual.  
+Total_Amt_Chng_Q4_Q1: incremento del importe de transacciones del cliente entre el cuarto y el primer trimestre.  
+Total_Trans_Amt: importe total de las transacciones en los últimos 12 meses.  
+Total_Trans_Ct: número total de transacciones realizadas en los últimos 12 meses.  
+Total_Ct_Chng_Q4_Q1: incremento del número de transacciones del cliente entre el cuarto y el primer trimestre.  
+Avg_Utilization_Ratio: porcentaje de utilización de la tarjeta de crédito.
+
 
 
 
