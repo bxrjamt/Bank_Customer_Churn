@@ -57,14 +57,12 @@ Este dataset, disponible en Kaggle en formato CSV, contiene información de clie
 
 Cada fila representa un cliente individual, identificado por un código único, e incluye variables demográficas, socioeconómicas y, principalmente, variables relacionadas con el uso de la tarjeta, las transacciones realizadas y la relación del cliente con el banco durante los últimos 12 meses.
 
-La variable objetivo es Attrition_Flag, que indica si el cliente permanece activo (Existing Customer) o si ha abandonado el servicio de tarjeta de crédito (Attrited Customer). El conjunto de datos presenta un desbalance de clases, con aproximadamente un 84% de clientes activos frente a un 16% de clientes que han abandonado.
-
 ### Columnas
 
 ![](images/dataset.png)
 
 - **CLIENTNUM**: número de cuenta del cliente. 
-- **Attrition_Flag**: estado del cliente (*Existing Customer* o *Attrited Customer*).
+- **Attrition_Flag**: variable objetivo, que indica si el cliente permanece activo (Existing Customer) o si ha abandonado el servicio de tarjeta de crédito (Attrited Customer).
 - **Customer_Age**: edad del cliente.
 - **Gender**: género del cliente (M: masculino, F: femenino).
 - **Dependent_count**: número de personas dependientes del cliente.
@@ -99,6 +97,7 @@ En este proyecto se emplean las siguientes herramientas y librerías:
 - **Streamlit**: Para crear una aplicación web interactiva que permita a los usuarios finales interactuar con el modelo y visualizar predicciones de *churn* de manera sencilla y accesible.
 
 --------
+
 
 
 
