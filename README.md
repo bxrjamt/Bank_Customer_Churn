@@ -6,6 +6,8 @@ Cuando un cliente deja de utilizar su tarjeta o decide cancelar el producto, la 
 
 Este proyecto tiene como objetivo desarrollar un modelo de predicción de abandono de clientes de tarjeta de crédito, utilizando información demográfica y, especialmente, variables de comportamiento y uso del producto. De esta forma, permitirá a la entidad adelantarse a la decisión de abandono de sus clientes, actuando en consecuencia para maximizar su relación en el tiempo y minimizar la pérdida de ingresos generados por el abandono.
 
+--------
+
 ## 🎯 Objetivos del Proyecto
 Los objetivos principales de este proyecto son:
 
@@ -16,6 +18,7 @@ Los objetivos principales de este proyecto son:
 - Identificar las variables más relevantes asociadas al churn.
 - Traducir los resultados obtenidos en conclusiones accionables desde el punto de vista del negocio.
 
+--------
 
 ## 📁 Estructura del Proyecto
 
@@ -40,6 +43,8 @@ credit_card_churn/
 └── requirements.txt
 
 ```
+
+--------
 
 ## Descripción del Dataset
 Este dataset, disponible en Kaggle en formato CSV, contiene información de clientes de tarjetas de crédito de una entidad bancaria y se utiliza para abordar un problema de clasificación binaria, cuyo objetivo es predecir la probabilidad de abandono de un cliente (customer churn), es decir, identificar qué clientes tienen mayor riesgo de cancelar o dejar de utilizar el servicio.
@@ -72,7 +77,15 @@ La variable objetivo es Attrition_Flag, que indica si el cliente permanece activ
 - **Total_Amt_Chng_Q4_Q1**: incremento del importe de transacciones del cliente entre el cuarto y el primer trimestre.  
 - **Total_Ct_Chng_Q4_Q1**: incremento del número de transacciones del cliente entre el cuarto y el primer trimestre. 
 
+--------
+## Herramientas utilizadas
 
+- **Jupyter Notebook**: Para documentar el análisis paso a paso, incluyendo limpieza de datos, visualizaciones y comentarios.  
+- **Python (pandas, matplotlib, seaborn)**: Para procesar los datos, calcular métricas clave y generar gráficos para el análisis exploratorio.  
+- **SQL (SQLite)**: Para realizar consultas que permitan segmentar clientes, productos y regiones, y obtener insights claros de la base de datos.  
+- **Power BI**: Para crear dashboards interactivos que muestren las ventas, KPIs y tendencias a lo largo del tiempo.
+
+--------
 
 
 
