@@ -62,7 +62,7 @@ Cada fila representa un cliente individual, identificado por un código único, 
 ![](images/dataset.png)
 
 - **CLIENTNUM**: número de cuenta del cliente. 
-- **Attrition_Flag**: variable objetivo, que indica si el cliente permanece activo (Existing Customer) o si ha abandonado el servicio de tarjeta de crédito (Attrited Customer).
+- **Attrition_Flag**: variable objetivo, que indica el estado del cliente (Existing Customer: el cliente permanece activo, Attrited Customer: ha abandonado el servicio).
 - **Customer_Age**: edad del cliente.
 - **Gender**: género del cliente (M: masculino, F: femenino).
 - **Dependent_count**: número de personas dependientes del cliente.
