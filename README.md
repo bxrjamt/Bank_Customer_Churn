@@ -12,8 +12,8 @@ Los objetivos principales de este proyecto son:
 - Analizar el perfil demográfico y el comportamiento de los clientes.
 - Comprender las diferencias entre clientes activos y clientes que abandonan (churn).
 - Evaluar la calidad y coherencia de los datos disponibles.
-- Construir modelos de *machine learning* para predecir el abandono de clientes.
-- Identificar las variables más relevantes asociadas al *churn*.
+- Construir modelos de machine learning para predecir el abandono de clientes.
+- Identificar las variables más relevantes asociadas al churn.
 - Traducir los resultados obtenidos en conclusiones accionables desde el punto de vista del negocio.
 
 
@@ -48,7 +48,7 @@ Cada observación un cliente individual, identificado por un código único, e i
 
 La variable objetivo es Attrition_Flag, que indica si el cliente permanece activo (Existing Customer) o si ha abandonado el servicio de tarjeta de crédito (Attrited Customer). El conjunto de datos presenta un desbalance de clases, con aproximadamente un 84% de clientes activos frente a un 16% de clientes que han abandonado.
 
-### Variables del Dataset
+### Variables
 - **CLIENTNUM**: identificador único del cliente.
 - **Attrition_Flag**: estado del cliente (*Existing Customer* o *Attrited Customer*).
 - **Customer_Age**: edad del cliente.
@@ -70,6 +70,7 @@ La variable objetivo es Attrition_Flag, que indica si el cliente permanece activ
 - **Total_Trans_Ct**: número total de transacciones realizadas en los últimos 12 meses.
 - **Total_Amt_Chng_Q4_Q1**: variación del importe de las transacciones entre el cuarto y el primer trimestre.
 - **Total_Ct_Chng_Q4_Q1**: variación del número de transacciones entre el cuarto y el primer trimestre.
+
 
 
 
