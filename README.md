@@ -37,8 +37,11 @@ credit_card_churn/
 │   └── 05_conclusions.ipynb
 │
 ├── src/
-│   └── app.py    
-│
+│   └── app.py
+│   
+├── images/
+│   └── dataset.png
+│ 
 ├── README.md
 └── requirements.txt
 
@@ -54,6 +57,8 @@ Cada observación un cliente individual, identificado por un código único, e i
 La variable objetivo es Attrition_Flag, que indica si el cliente permanece activo (Existing Customer) o si ha abandonado el servicio de tarjeta de crédito (Attrited Customer). El conjunto de datos presenta un desbalance de clases, con aproximadamente un 84% de clientes activos frente a un 16% de clientes que han abandonado.
 
 ### Variables
+
+![](images/dataset.png)
 
 - **CLIENTNUM**: número de cuenta del cliente. 
 - **Attrition_Flag**: estado del cliente (*Existing Customer* o *Attrited Customer*).
@@ -77,6 +82,7 @@ La variable objetivo es Attrition_Flag, que indica si el cliente permanece activ
 - **Total_Amt_Chng_Q4_Q1**: incremento del importe de transacciones del cliente entre el cuarto y el primer trimestre.  
 - **Total_Ct_Chng_Q4_Q1**: incremento del número de transacciones del cliente entre el cuarto y el primer trimestre. 
 
+
 --------
 ## 🛠️ Herramientas utilizadas
 En este proyecto se emplean las siguientes herramientas y librerías:
@@ -90,6 +96,7 @@ En este proyecto se emplean las siguientes herramientas y librerías:
 - **Streamlit**: Para crear una aplicación web interactiva que permita a los usuarios finales interactuar con el modelo y visualizar predicciones de *churn* de manera sencilla y accesible.
 
 --------
+
 
 
 
