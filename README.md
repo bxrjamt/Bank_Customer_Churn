@@ -1,4 +1,4 @@
-﻿# 💳 Abandono de Clientes de Tarjeta de Crédito
+﻿# 💳 Predicción del Abandono de Clientes de Tarjeta de Crédito
 
 ## 📌 Caso de negocio
 El abandono de clientes (customer churn) es uno de los principales problemas en el sector financiero, especialmente en productos como las tarjetas de crédito, donde la rentabilidad depende directamente del nivel de uso y de la relación a largo plazo con el cliente.
@@ -46,7 +46,7 @@ credit_card_churn/
 
 --------
 
-## Descripción del Dataset
+## 🧾 Descripción del Dataset
 Este dataset, disponible en Kaggle en formato CSV, contiene información de clientes de tarjetas de crédito de una entidad bancaria y se utiliza para abordar un problema de clasificación binaria, cuyo objetivo es predecir la probabilidad de abandono de un cliente (customer churn), es decir, identificar qué clientes tienen mayor riesgo de cancelar o dejar de utilizar el servicio.
 
 Cada observación un cliente individual, identificado por un código único, e incluye variables demográficas, socioeconómicas y, principalmente, variables relacionadas con el uso de la tarjeta, las transacciones realizadas y la relación del cliente con el banco durante los últimos 12 meses.
@@ -90,6 +90,7 @@ En este proyecto se emplean las siguientes herramientas y librerías:
 - **Streamlit**: Para crear una aplicación web interactiva que permita a los usuarios finales interactuar con el modelo y visualizar predicciones de *churn* de manera sencilla y accesible.
 
 --------
+
 
 
 
