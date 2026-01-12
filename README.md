@@ -78,14 +78,19 @@ La variable objetivo es Attrition_Flag, que indica si el cliente permanece activ
 - **Total_Ct_Chng_Q4_Q1**: incremento del número de transacciones del cliente entre el cuarto y el primer trimestre. 
 
 --------
-## Herramientas utilizadas
+## 🛠️ Herramientas utilizadas
+En este proyecto se emplean las siguientes herramientas y librerías:
 
-- **Jupyter Notebook**: Para documentar el análisis paso a paso, incluyendo limpieza de datos, visualizaciones y comentarios.  
-- **Python (pandas, matplotlib, seaborn)**: Para procesar los datos, calcular métricas clave y generar gráficos para el análisis exploratorio.  
-- **SQL (SQLite)**: Para realizar consultas que permitan segmentar clientes, productos y regiones, y obtener insights claros de la base de datos.  
-- **Power BI**: Para crear dashboards interactivos que muestren las ventas, KPIs y tendencias a lo largo del tiempo.
+- **Jupyter Notebook**: Para documentar y ejecutar el código de manera organizada.
+- **Python**: Para el análisis de datos y modelado de machine learning.
+- **Pandas**: Para la manipulación y el análisis de datos estructurados. Permite trabajar con DataFrames y realizar limpieza de datos.
+- **NumPy**: Para las operaciones matemáticas y el manejo eficiente de arrays.
+- **Matplotlib y Seaborn**: Para la visualización de datos, gráficos estadísticos y exploración de patrones.
+- **Scikit-learn**: Para el preprocesamiento, el entrenamiento y la evaluación de modelos de clasificación.
+- **Streamlit**: Para crear una aplicación web interactiva que permita a los usuarios finales interactuar con el modelo y visualizar predicciones de *churn* de manera sencilla y accesible.
 
 --------
+
 
 
 
