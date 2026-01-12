@@ -42,8 +42,11 @@ credit_card_churn/
 ```
 
 ## Descripción del Dataset
-Este dataset, disponible en Kaggle en formato CSV, contiene información de clientes de tarjetas de crédito de una entidad financiera, donde cada observación representa un cliente individual, identificado por un código único, e incluye información sobre su relación con la entidad, el nivel de actividad, el uso del crédito y las transacciones realizadas en los últimos 12 meses.
-La variable objetivo del proyecto es Attrition_Flag, que indica si el cliente continúa activo o si ha abandonado el producto.
+Este dataset, disponible en Kaggle en formato CSV, contiene información de clientes de tarjetas de crédito de una entidad bancaria y se utiliza para abordar un problema de clasificación binaria, cuyo objetivo es predecir la probabilidad de abandono de un cliente (customer churn), es decir, identificar qué clientes tienen mayor riesgo de cancelar o dejar de utilizar el servicio.
+
+Cada observación un cliente individual, identificado por un código único, e incluye variables demográficas, socioeconómicas y, principalmente, variables relacionadas con el uso de la tarjeta, las transacciones realizadas y la relación del cliente con el banco durante los últimos 12 meses.
+
+La variable objetivo es Attrition_Flag, que indica si el cliente permanece activo (Existing Customer) o si ha abandonado el servicio de tarjeta de crédito (Attrited Customer). El conjunto de datos presenta un desbalance de clases, con aproximadamente un 84% de clientes activos frente a un 16% de clientes que han abandonado.
 
 ### Variables del Dataset
 - **CLIENTNUM**: identificador único del cliente.
@@ -67,6 +70,7 @@ La variable objetivo del proyecto es Attrition_Flag, que indica si el cliente co
 - **Total_Trans_Ct**: número total de transacciones realizadas en los últimos 12 meses.
 - **Total_Amt_Chng_Q4_Q1**: variación del importe de las transacciones entre el cuarto y el primer trimestre.
 - **Total_Ct_Chng_Q4_Q1**: variación del número de transacciones entre el cuarto y el primer trimestre.
+
 
 
 
