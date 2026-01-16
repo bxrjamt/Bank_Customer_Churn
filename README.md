@@ -1,4 +1,4 @@
-﻿# 💳 Predicción del Abandono de Clientes de Tarjeta de Crédito
+﻿# 💳 Predicción del Abandono de Clientes Bancarios
 
 ## 📌 Caso de negocio
 El abandono de clientes (customer churn) es uno de los principales problemas en el sector financiero, especialmente en productos como las tarjetas de crédito, donde la rentabilidad depende directamente del nivel de uso y de la relación a largo plazo con el cliente.
@@ -97,6 +97,7 @@ En este proyecto se emplean las siguientes herramientas y librerías:
 - **Streamlit**: Para crear una aplicación web interactiva que permita a los usuarios finales interactuar con el modelo y visualizar predicciones de *churn* de manera sencilla y accesible.
 
 --------
+
 
 
 
