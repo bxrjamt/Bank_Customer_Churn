@@ -97,7 +97,16 @@ En este proyecto se emplean las siguientes herramientas y librerías:
 - **Scikit-learn**: Para el preprocesamiento, el entrenamiento y la evaluación de modelos de clasificación.
 - **Streamlit**: Para crear una aplicación web interactiva que permita a los usuarios finales interactuar con el modelo y visualizar predicciones de *churn* de manera sencilla y accesible.
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-EB0028?style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT-412991?style=for-the-badge&logo=openai&logoColor=white)
+
 --------
+
 
 
 
