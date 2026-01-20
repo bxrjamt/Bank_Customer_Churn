@@ -87,16 +87,6 @@ Cada fila representa un cliente individual, identificado por un código único (
 
 --------
 ## 🛠️ Herramientas utilizadas
-En este proyecto se emplean las siguientes herramientas y librerías:
-
-- **Jupyter Notebook**: Para documentar y ejecutar el código de manera organizada.
-- **Python**: Para el análisis de datos y modelado de machine learning.
-- **Pandas**: Para la manipulación y el análisis de datos estructurados.
-- **NumPy**: Para las operaciones matemáticas y el manejo eficiente de arrays.
-- **Matplotlib y Seaborn**: Para la visualización de datos, gráficos estadísticos y exploración de patrones.
-- **Scikit-learn**: Para el preprocesamiento, el entrenamiento y la evaluación de modelos de clasificación.
-- **Streamlit**: Para crear una aplicación web interactiva que permita a los usuarios finales interactuar con el modelo y visualizar predicciones de *churn* de manera sencilla y accesible.
-
 <table>
   <tr>
     <td align="center">
@@ -139,6 +129,7 @@ En este proyecto se emplean las siguientes herramientas y librerías:
 </table>
 
 --------
+
 
 
 
