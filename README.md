@@ -14,7 +14,7 @@ Para resolver esto, el banco nos proporcionará datos de sus clientes, y nuestro
 --------
 ## 🎯 Fases del proyecto
 
-| Fase | Sub-tareas |
+| Fase | Apartados |
 |------|------------|
 | 1️⃣ Configuración y carga de datos | 1.1 Cargar los datos y separar entre conjunto de entrenamiento y test para poder evaluar nuestros modelos más adelante. |
 | 2️⃣ EDA (Exploración de datos) | 2.1 Describir estadísticas básicas para entender el comportamiento general de las variables.<br>2.2 Visualizar variables y su distribución.<br>2.3 Analizar la interacción entre variables para detectar patrones importantes.<br>2.4 Estudiar la correlación entre variables para identificar relaciones relevantes. |
@@ -23,44 +23,7 @@ Para resolver esto, el banco nos proporcionará datos de sus clientes, y nuestro
 | 5️⃣ Entrenamiento y evaluación de modelos | 5.1 Probar regresión logística como modelo base.<br>5.2 Entrenar XGBoost para mejorar la predicción del churn. |
 | 6️⃣ Interpretación de variables en el modelo | 6.1 Analizar qué variables influyen más en la decisión de los clientes de quedarse o irse.<br>6.2 Extraer conclusiones que permitan diseñar estrategias de retención. |
 | 7️⃣ Generación de comunicaciones con GPT | 7.1 Usar IA generativa para crear mensajes personalizados que animen a los clientes a quedarse. |
-| 8️⃣ Envío de correo | 8.1 Fase final: ejecutar la campaña de retención con los clientes identificados como en riesgo. |
-
-
-##  🎯 Fases del proyecto
-
-#### 1. Configuración y carga de datos
-- **1.1 Cargar los datos** y separar entre conjunto de entrenamiento y test para poder evaluar nuestros modelos más adelante.
-
-#### 2. EDA (Exploración de datos)
-- **2.1 Describir estadísticas básicas** para entender el comportamiento general de las variables.  
-- **2.2 Visualizar variables** y su distribución.  
-- **2.3 Analizar la interacción entre variables** para detectar patrones importantes.  
-- **2.4 Estudiar la correlación entre variables** para identificar relaciones relevantes.
-
-#### 3. Preprocesamiento de datos
-- **3.1 Eliminar variables irrelevantes o redundantes**.  
-- **3.2 Tratar valores nulos**  
-  - **3.2.1 Imputación basada en lógicas de negocio**.  
-  - **3.2.2 Imputación con valores estimados** usando técnicas estadísticas.  
-- **3.3 Aplicar one-hot encoding** para variables categóricas y dejar los datos listos para los modelos.
-
-#### 4. Balanceo de clases
-- **4.1 Ajustar el dataset** para que los modelos no se sesguen hacia la clase mayoritaria.  
-- **4.2 Preparar el test** para la evaluación final.
-
-#### 5. Entrenamiento y evaluación de modelos
-- **5.1 Probar regresión logística** como modelo base.  
-- **5.2 Entrenar XGBoost** para mejorar la predicción del churn.
-
-#### 6. Interpretación de variables en el modelo
-- **6.1 Analizar qué variables influyen más** en la decisión de los clientes de quedarse o irse.  
-- **6.2 Extraer conclusiones** que permitan diseñar estrategias de retención.
-
-#### 7. Generación de comunicaciones con GPT
-- **7.1 Usar IA generativa** para crear mensajes personalizados que animen a los clientes a quedarse.
-
-#### 8. Envío de correo
-- **8.1 Fase final**: ejecutar la campaña de retención con los clientes identificados como en riesgo.
+| 8️⃣ Envío de correo | 8.1 Ejecutar la campaña de retención con los clientes identificados como en riesgo. |
 
 --------
 
@@ -136,6 +99,7 @@ En este proyecto se emplean las siguientes herramientas y librerías:
 - **Streamlit**: Para crear una aplicación web interactiva que permita a los usuarios finales interactuar con el modelo y visualizar predicciones de *churn* de manera sencilla y accesible.
 
 --------
+
 
 
 
