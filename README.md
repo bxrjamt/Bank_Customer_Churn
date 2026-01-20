@@ -14,6 +14,8 @@ Para resolver esto, el banco nos proporcionará datos de sus clientes, y nuestro
 --------
 ## 🎯 Fases del proyecto
 
+![](images/phases.png)
+
 | Fase | Apartados |
 |------|------------|
 | 1️⃣ **Configuración y carga de datos** | 1.1 Cargar los datos y separar entre conjunto de entrenamiento y test para poder evaluar nuestros modelos más adelante. |
@@ -129,6 +131,7 @@ Cada fila representa un cliente individual, identificado por un código único (
 </table>
 
 --------
+
 
 
 
