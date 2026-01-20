@@ -64,13 +64,13 @@ La variable objetivo es **Attrition_Flag**, que indica si un cliente ha abandona
 ![](images/dataset.png)
 
 - **CLIENTNUM**: número de cuenta del cliente. 
-- **Attrition_Flag**: estado del cliente (`Existing Customer`: permanece activo, `Attrited Customer`: ha abandonado el servicio).
+- **Attrition_Flag**: estado del cliente (`Existing Customer`, `Attrited Customer`).
 - **Customer_Age**: edad del cliente.
-- **Gender**: género del cliente (`M`: masculino, `F`: femenino).
+- **Gender**: género del cliente (`M`,`F`).
 - **Dependent_count**: número de personas dependientes del cliente.
-- **Education_Level**: nivel educativo del cliente (Sin educación, Escuela Secundaria, Graduado, Universidad, Postgrado, Doctorado y `Unknown`). 
-- **Marital_Status**: estado civil del cliente (Soltero, Casado, Divorciado y Desconocido).
-- **Income_Category**: categoría de ingresos del cliente (`Menos de $40K`, `$40K-$60K`, `$60K-$80K`, `$80K-$120K`, `$120K+ y `Unknown`).  
+- **Education_Level**: nivel educativo del cliente (`Uneducated`, `High School`, ´Graduate´, `College`, `Post-Graduate`, `Doctorate` y `Unknown`). 
+- **Marital_Status**: estado civil del cliente (`Single`, `Married`, `Divorced` y `Unknown`).
+- **Income_Category**: categoría de ingresos del cliente (`Less than $40K`, `$40K-$60K`, `$60K-$80K`, `$80K-$120K`, `$120K+` y `Unknown`).  
 - **Card_Category**: tipo de tarjeta utilizada (`Blue`, `Silver`, `Gold` y `Platinum`). 
 - **Months_on_Book**: tiempo como cliente (en meses)
 - **Total_Relationship_Count**: número de productos utilizados por los clientes en el banco.  
@@ -99,6 +99,7 @@ En este proyecto se emplean las siguientes herramientas y librerías:
 - **Streamlit**: Para crear una aplicación web interactiva que permita a los usuarios finales interactuar con el modelo y visualizar predicciones de *churn* de manera sencilla y accesible.
 
 --------
+
 
 
 
