@@ -120,7 +120,7 @@ En este proyecto se emplean las siguientes herramientas y librerías:
       <b>Matplotlib</b>
     </td>
     <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="65"/><br/>
+      <img src="images/seaborn_custom.png" width="65"/><br/>
       <b>Seaborn</b>
     </td>
    <td align="center">
@@ -132,13 +132,14 @@ En este proyecto se emplean las siguientes herramientas y librerías:
       <b>Jupyter</b>
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/openai.svg" width="65"/><br/>
+      <img src="images/chatGPT_custom.png" width="65"/><br/>
       <b>ChatGPT</b>
     </td>
   </tr>
 </table>
 
 --------
+
 
 
 
