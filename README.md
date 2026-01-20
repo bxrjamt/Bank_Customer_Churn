@@ -1,5 +1,5 @@
 
- # Retención de clientes en un banco
+ # Retención de Clientes en un Banco
 Uno de los mayores desafíos para los bancos hoy en día es **evitar que sus clientes abandonen sus productos (churn)**, sobre todo en servicios como las tarjetas de crédito. Cada vez que un cliente deja de usar su tarjeta o cancela el producto, el banco no solo pierde los ingresos de las transacciones, sino también la oportunidad de generar rentabilidad a largo plazo. Además, atraer a un nuevo cliente suele ser **mucho más caro** que retener a uno existente.  
 
 ## 📌 CASO PRÁCTICO
@@ -27,7 +27,7 @@ Para resolver esto, el banco nos proporcionará datos de sus clientes, y nuestro
 
 --------
 
-## 📁 Estructura del Proyecto
+## 📁 Estructura del proyecto
 
 ```
 bank_customer_churn_project/
@@ -51,7 +51,7 @@ bank_customer_churn_project/
 ```
 
 --------
-## 🧾 Descripción del Dataset
+## 🧾 Descripción del dataset
 
 Este dataset se obtuvo de **Kaggle** y contiene información de los clientes de un banco. Está en formato **CSV** y tiene:  
 
@@ -129,6 +129,7 @@ Cada fila representa un cliente individual, identificado por un código único (
 </table>
 
 --------
+
 
 
 
