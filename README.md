@@ -1,68 +1,98 @@
-﻿# 💳 Predicción del Abandono de Clientes Bancarios
+﻿# Retención de clientes en el sector bancario
 
-## 📌 Caso de negocio
-El abandono de clientes (customer churn) es uno de los principales problemas en el sector financiero, especialmente en productos como las tarjetas de crédito, donde la rentabilidad depende directamente del nivel de uso y de la relación a largo plazo con el cliente.
-Cuando un cliente deja de utilizar su tarjeta o decide cancelar el producto, la entidad bancaria no solo pierde los ingresos asociados a las transacciones, sino también el potencial de rentabilidad futura. Además, captar nuevos clientes suele ser significativamente más costoso que retener a los existentes.
+## 📌 Caso de negocio: Retención de clientes en el sector financiero
+Uno de los mayores desafíos para los bancos hoy en día es **evitar que sus clientes abandonen sus productos**, sobre todo en servicios como las tarjetas de crédito. Cada vez que un cliente deja de usar su tarjeta o cancela el producto, el banco no solo pierde los ingresos de las transacciones, sino también la oportunidad de generar rentabilidad a largo plazo. Además, atraer a un nuevo cliente suele ser **mucho más caro** que retener a uno existente.  
 
-Este proyecto tiene como objetivo desarrollar un modelo de predicción de abandono de clientes de tarjeta de crédito, utilizando información demográfica y, especialmente, variables de comportamiento y uso del producto. De esta forma, permitirá a la entidad adelantarse a la decisión de abandono de sus clientes, actuando en consecuencia para maximizar su relación en el tiempo y minimizar la pérdida de ingresos generados por el abandono.
+Imaginemos un banco ficticio llamado **"Banco Horizonte"**, que nos ha contratado para abordar este problema. Han observado que un porcentaje considerable de sus clientes está abandonando sus servicios y quieren saber **quiénes podrían estar en riesgo de irse**. Incluso más importante, quieren descubrir **qué acciones podrían tomar para retenerlos**.  
+
+Para resolver esto, el banco nos proporcionará datos de sus clientes, y nuestro proyecto se enfocará en tres objetivos principales:  
+
+1. **Predecir la probabilidad de abandono de cada cliente**, identificando quiénes están en riesgo de irse.  
+2. **Analizar las causas clave que influyen en la decisión de quedarse o irse**, para entender el comportamiento de los clientes.  
+3. **Generar recomendaciones personalizadas** basadas en los datos, como incentivos o mejoras en los servicios, que aumenten la retención y la satisfacción de los clientes.  
 
 --------
 
-## 🎯 Objetivos del Proyecto
-Los objetivos principales de este proyecto son:
+##  🎯 Fases del proyecto
 
-- Analizar el perfil demográfico y el comportamiento de los clientes.
-- Comprender las diferencias entre clientes activos y clientes que abandonan (churn).
-- Evaluar la calidad y coherencia de los datos disponibles.
-- Construir modelos de machine learning para predecir el abandono de clientes.
-- Identificar las variables más relevantes asociadas al churn.
-- Traducir los resultados obtenidos en conclusiones accionables desde el punto de vista del negocio.
+Nuestro proyecto para predecir y retener clientes de Banco Horizonte se estructura en varias fases clave:  
+
+### 1. Configuración y carga de datos
+- **1.1 Cargar los datos** y separar entre conjunto de entrenamiento y test para poder evaluar nuestros modelos más adelante.
+
+### 2. EDA (Exploración de datos)
+- **2.1 Describir estadísticas básicas** para entender el comportamiento general de las variables.  
+- **2.2 Visualizar variables** y su distribución.  
+- **2.3 Analizar la interacción entre variables** para detectar patrones importantes.  
+- **2.4 Estudiar la correlación entre variables** para identificar relaciones relevantes.
+
+### 3. Preprocesamiento de datos
+- **3.1 Eliminar variables irrelevantes o redundantes**.  
+- **3.2 Tratar valores nulos**  
+  - **3.2.1 Imputación basada en lógicas de negocio**.  
+  - **3.2.2 Imputación con valores estimados** usando técnicas estadísticas.  
+- **3.3 Aplicar one-hot encoding** para variables categóricas y dejar los datos listos para los modelos.
+
+### 4. Balanceo de clases
+- Ajustar el dataset para que los modelos no se sesguen hacia la clase mayoritaria.  
+- **4.1 Preparar el test** para evaluación final.
+
+### 5. Entrenamiento y evaluación de modelos
+- **5.1 Probar regresión logística** como modelo base.  
+- **5.2 Entrenar XGBoost** para mejorar la predicción del churn.
+
+### 6. Interpretación de variables en el modelo
+- Analizar qué variables influyen más en la decisión de los clientes de quedarse o irse.  
+- **6.1 Extraer conclusiones** que permitan diseñar estrategias de retención.
+
+### 7. Generación de comunicaciones con GPT
+- **7.1 Usar IA generativa** para crear mensajes personalizados que animen a los clientes a quedarse.
+
+### 8. Envío de correo
+- **8.1 Fase final**: ejecutar la campaña de retención con los clientes identificados como en riesgo.
 
 --------
 
 ## 📁 Estructura del Proyecto
 
 ```
-credit_card_churn/
+customer_churn_project/
 │
 ├── data/
-│   ├── raw/BankChurn.csv      # Dataset original
-│   └── processed/    # Datasets limpios y preparados
+│   ├── raw/                 # Dataset original
+│   │   └── BankChurners.csv
+│   └── processed/           # Dataset limpio y preparado para el análisis y modelado
 │
 ├── notebooks/
-│   ├── 01_data_quality.ipynb
-│   ├── 02_eda.ipynb
-│   ├── 03_feature_engineering.ipynb
-│   ├── 04_modeling.ipynb
-│   └── 05_conclusions.ipynb
+│   └── customer_retention_analysis.ipynb  # Notebook principal donde se realiza todo el flujo de trabajo
 │
 ├── src/
-│   └── app.py
-│   
-├── images/
+│   └── app.py               # Aplicación interactiva para que el banco pueda simular escenarios de retención y tomar decisiones basadas en los datos.  
+│
+├── images/                  # Gráficos generados en el análisis para documentar y visualizar insights importantes
 │   └── dataset.png
-│ 
-├── README.md
-└── requirements.txt
-
+│
+├── README.md                
+└── requirements.txt         # Librerías necesarias para instalar
 ```
 
 --------
-
 ## 🧾 Descripción del Dataset
-Este dataset, disponible en Kaggle en formato CSV, contiene información de clientes de tarjetas de crédito de una entidad bancaria y se utiliza para abordar un problema de clasificación binaria, cuyo objetivo es predecir la probabilidad de abandono de un cliente (customer churn), es decir, identificar qué clientes tienen mayor riesgo de cancelar o dejar de utilizar el servicio.
 
-- **Número de columnas:** 21  
-- **Número de filas:** 10,127
+Este dataset se obtuvo de **Kaggle** y contiene información de los clientes de un banco. Está en formato **CSV** y tiene:  
 
-Cada fila representa un cliente individual, identificado por un código único, e incluye variables demográficas, socioeconómicas y, principalmente, variables relacionadas con el uso de la tarjeta, las transacciones realizadas y la relación del cliente con el banco durante los últimos 12 meses.
+- **Filas:** 10,127  
+- **Columnas:** 21  
+
+Cada fila representa un cliente individual, identificado por un código único (su número de cuenta), e incluye variables demográficas, socioeconómicas y, principalmente, variables relacionadas con el uso de la tarjeta, las transacciones realizadas y la relación del cliente con el banco durante los últimos 12 meses.
+La variable objetivo es **Attrition_Flag**, que indica si un cliente ha abandonado el servicio (`Attrited Customer`) o sigue activo (`Existing Customer`).
 
 ### Columnas
 
 ![](images/dataset.png)
 
 - **CLIENTNUM**: número de cuenta del cliente. 
-- **Attrition_Flag**: variable objetivo, que indica el estado del cliente (Existing Customer: el cliente permanece activo, Attrited Customer: ha abandonado el servicio).
+- **Attrition_Flag**: estado del cliente (Existing Customer: permanece activo, Attrited Customer: ha abandonado el servicio).
 - **Customer_Age**: edad del cliente.
 - **Gender**: género del cliente (M: masculino, F: femenino).
 - **Dependent_count**: número de personas dependientes del cliente.
@@ -97,6 +127,7 @@ En este proyecto se emplean las siguientes herramientas y librerías:
 - **Streamlit**: Para crear una aplicación web interactiva que permita a los usuarios finales interactuar con el modelo y visualizar predicciones de *churn* de manera sencilla y accesible.
 
 --------
+
 
 
 
