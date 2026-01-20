@@ -2,7 +2,7 @@
  # Retención de clientes en un banco
 Uno de los mayores desafíos para los bancos hoy en día es **evitar que sus clientes abandonen sus productos (churn)**, sobre todo en servicios como las tarjetas de crédito. Cada vez que un cliente deja de usar su tarjeta o cancela el producto, el banco no solo pierde los ingresos de las transacciones, sino también la oportunidad de generar rentabilidad a largo plazo. Además, atraer a un nuevo cliente suele ser **mucho más caro** que retener a uno existente.  
 
-## 📌 CASO PRÁCTICO:
+## 📌 Caso práctico
 Imaginemos que un banco ficticio llamado **"Banco Horizonte"**, nos ha contratado para abordar este problema. Han observado que un porcentaje considerable de sus clientes está abandonando sus servicios y quieren saber **quiénes podrían estar en riesgo de irse**. Incluso más importante, quieren descubrir **qué acciones podrían tomar para retenerlos**.  
 
 Para resolver esto, el banco nos proporcionará datos de sus clientes, y nuestro proyecto se enfocará en los siguientes tres objetivos principales:  
@@ -125,6 +125,7 @@ En este proyecto se emplean las siguientes herramientas y librerías:
 - **Streamlit**: Para crear una aplicación web interactiva que permita a los usuarios finales interactuar con el modelo y visualizar predicciones de *churn* de manera sencilla y accesible.
 
 --------
+
 
 
 
