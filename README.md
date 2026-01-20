@@ -1,10 +1,11 @@
 
- # 📌 Retención de clientes en el sector financiero
-Uno de los mayores desafíos para los bancos hoy en día es **evitar que sus clientes abandonen sus productos**, sobre todo en servicios como las tarjetas de crédito. Cada vez que un cliente deja de usar su tarjeta o cancela el producto, el banco no solo pierde los ingresos de las transacciones, sino también la oportunidad de generar rentabilidad a largo plazo. Además, atraer a un nuevo cliente suele ser **mucho más caro** que retener a uno existente.  
+ # Retención de clientes en un banco
+Uno de los mayores desafíos para los bancos hoy en día es **evitar que sus clientes abandonen sus productos (churn)**, sobre todo en servicios como las tarjetas de crédito. Cada vez que un cliente deja de usar su tarjeta o cancela el producto, el banco no solo pierde los ingresos de las transacciones, sino también la oportunidad de generar rentabilidad a largo plazo. Además, atraer a un nuevo cliente suele ser **mucho más caro** que retener a uno existente.  
 
-Imaginemos un banco ficticio llamado **"Banco Horizonte"**, que nos ha contratado para abordar este problema. Han observado que un porcentaje considerable de sus clientes está abandonando sus servicios y quieren saber **quiénes podrían estar en riesgo de irse**. Incluso más importante, quieren descubrir **qué acciones podrían tomar para retenerlos**.  
+## 📌 CASO PRÁCTICO:
+Imaginemos que un banco ficticio llamado **"Banco Horizonte"**, nos ha contratado para abordar este problema. Han observado que un porcentaje considerable de sus clientes está abandonando sus servicios y quieren saber **quiénes podrían estar en riesgo de irse**. Incluso más importante, quieren descubrir **qué acciones podrían tomar para retenerlos**.  
 
-Para resolver esto, el banco nos proporcionará datos de sus clientes, y nuestro proyecto se enfocará en tres objetivos principales:  
+Para resolver esto, el banco nos proporcionará datos de sus clientes, y nuestro proyecto se enfocará en los siguientes tres objetivos principales:  
 
 1. **Predecir la probabilidad de abandono de cada cliente**, identificando quiénes están en riesgo de irse.  
 2. **Analizar las causas clave que influyen en la decisión de quedarse o irse**, para entender el comportamiento de los clientes.  
@@ -31,16 +32,16 @@ Para resolver esto, el banco nos proporcionará datos de sus clientes, y nuestro
 - **3.3 Aplicar one-hot encoding** para variables categóricas y dejar los datos listos para los modelos.
 
 ### 4. Balanceo de clases
-- Ajustar el dataset para que los modelos no se sesguen hacia la clase mayoritaria.  
-- **4.1 Preparar el test** para evaluación final.
+- **4.1 Ajustar el dataset** para que los modelos no se sesguen hacia la clase mayoritaria.  
+- **4.2 Preparar el test** para la evaluación final.
 
 ### 5. Entrenamiento y evaluación de modelos
 - **5.1 Probar regresión logística** como modelo base.  
 - **5.2 Entrenar XGBoost** para mejorar la predicción del churn.
 
 ### 6. Interpretación de variables en el modelo
-- Analizar qué variables influyen más en la decisión de los clientes de quedarse o irse.  
-- **6.1 Extraer conclusiones** que permitan diseñar estrategias de retención.
+- **6.1 Analizar qué variables influyen más** en la decisión de los clientes de quedarse o irse.  
+- **6.2 Extraer conclusiones** que permitan diseñar estrategias de retención.
 
 ### 7. Generación de comunicaciones con GPT
 - **7.1 Usar IA generativa** para crear mensajes personalizados que animen a los clientes a quedarse.
@@ -53,7 +54,7 @@ Para resolver esto, el banco nos proporcionará datos de sus clientes, y nuestro
 ## 📁 Estructura del Proyecto
 
 ```
-customer_churn_project/
+bank_customer_churn_project/
 │
 ├── data/
 │   ├── raw/                 # Dataset original
@@ -124,6 +125,7 @@ En este proyecto se emplean las siguientes herramientas y librerías:
 - **Streamlit**: Para crear una aplicación web interactiva que permita a los usuarios finales interactuar con el modelo y visualizar predicciones de *churn* de manera sencilla y accesible.
 
 --------
+
 
 
 
