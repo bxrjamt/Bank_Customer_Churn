@@ -12,20 +12,20 @@ Para resolver esto, el banco nos proporcionará datos de sus clientes, y nuestro
 3. **Generar recomendaciones personalizadas** basadas en los datos, como incentivos o mejoras en los servicios, que aumenten la retención y la satisfacción de los clientes.  
 
 --------
-## 🎯 Pasos a realizar
+## 🎯 Fases del proyecto
 
 ![](images/phases.png)
 
-| Fase | Apartados |
+| Fase | Qué se hace |
 |------|------------|
-| 1️⃣ **Carga de datos y separación train-test** | 1.1 Cargar los datos y separar entre conjunto de entrenamiento y test para poder evaluar nuestros modelos más adelante. |
-| 2️⃣ **EDA (Exploración de datos)** | 2.1 Describir estadísticas básicas para entender el comportamiento general de las variables.<br>2.2 Visualizar variables y su distribución.<br>2.3 Analizar la interacción entre variables para detectar patrones importantes.<br>2.4 Estudiar la correlación entre variables para identificar relaciones relevantes. |
-| 3️⃣ **Preprocesamiento de datos** | 3.1 Eliminar variables irrelevantes o redundantes.<br>3.2 Tratar valores nulos:<br>&nbsp;&nbsp;3.2.1 Imputación basada en lógicas de negocio.<br>&nbsp;&nbsp;3.2.2 Imputación con valores estimados usando técnicas estadísticas.<br>3.3 Aplicar one-hot encoding para variables categóricas y dejar los datos listos para los modelos. |
-| 4️⃣ **Balanceo de clases** | 4.1 Ajustar el dataset para que los modelos no se sesguen hacia la clase mayoritaria.<br>4.2 Preparar el test para la evaluación final. |
-| 5️⃣ **Entrenamiento y evaluación de modelos** | 5.1 Probar regresión logística como modelo base.<br>5.2 Entrenar XGBoost para mejorar la predicción del churn. |
-| 6️⃣ **Interpretación de variables en el modelo** | 6.1 Analizar qué variables influyen más en la decisión de los clientes de quedarse o irse.<br>6.2 Extraer conclusiones que permitan diseñar estrategias de retención. |
-| 7️⃣ **Generación de comunicaciones con GPT** | 7.1 Usar IA generativa para crear mensajes personalizados que animen a los clientes a quedarse. |
-| 8️⃣ **Envío de correo** | 8.1 Ejecutar la campaña de retención con los clientes identificados como en riesgo. |
+| 1️⃣ **Carga y separación train-test** | - Cargar los datos <br> - Separar entre conjunto de entrenamiento y test para evaluar los modelos más adelante |
+| 2️⃣ **EDA (Exploración de datos)** | - Describir estadísticas básicas para entender el comportamiento general de las variables <br> - Visualizar variables y su distribución <br> - Analizar la interacción entre variables para detectar patrones importantes <br> - Estudiar la correlación entre variables para identificar relaciones relevantes |
+| 3️⃣ **Preprocesamiento de datos** | - Eliminar variables irrelevantes o redundantes <br> - Tratar valores nulos: <br> &nbsp;&nbsp;- Imputación basada en lógicas de negocio <br> &nbsp;&nbsp;- Imputación con valores estimados usando técnicas estadísticas <br> - Aplicar one-hot encoding para variables categóricas y dejar los datos listos para los modelos |
+| 4️⃣ **Balanceo de clases** | - Ajustar el dataset para que los modelos no se sesguen hacia la clase mayoritaria <br> - Preparar el test para la evaluación final |
+| 5️⃣ **Entrenamiento y evaluación de modelos** | - Probar regresión logística como modelo base <br> - Entrenar XGBoost para mejorar la predicción del churn |
+| 6️⃣ **Interpretación de variables en el modelo** | - Analizar qué variables influyen más en la decisión de los clientes de quedarse o irse <br> - Extraer conclusiones que permitan diseñar estrategias de retención |
+| 7️⃣ **Generación de comunicaciones con GPT** | - Usar IA generativa para crear mensajes personalizados que animen a los clientes a quedarse |
+| 8️⃣ **Envío de correo** | - Ejecutar la campaña de retención con los clientes identificados como en riesgo |
 
 --------
 
@@ -131,6 +131,7 @@ Cada fila representa un cliente individual, identificado por un código único (
 </table>
 
 --------
+
 
 
 
