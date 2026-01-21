@@ -12,13 +12,13 @@ Para resolver esto, el banco nos proporcionará datos de sus clientes, y nuestro
 3. **Generar recomendaciones personalizadas** basadas en los datos, como incentivos o mejoras en los servicios, que aumenten la retención y la satisfacción de los clientes.  
 
 --------
-## 🎯 Fases del proyecto
+## 🎯 Pasos a realizar
 
 ![](images/phases.png)
 
 | Fase | Apartados |
 |------|------------|
-| 1️⃣ **Configuración y carga de datos** | 1.1 Cargar los datos y separar entre conjunto de entrenamiento y test para poder evaluar nuestros modelos más adelante. |
+| 1️⃣ **Carga de datos y separación train-test** | 1.1 Cargar los datos y separar entre conjunto de entrenamiento y test para poder evaluar nuestros modelos más adelante. |
 | 2️⃣ **EDA (Exploración de datos)** | 2.1 Describir estadísticas básicas para entender el comportamiento general de las variables.<br>2.2 Visualizar variables y su distribución.<br>2.3 Analizar la interacción entre variables para detectar patrones importantes.<br>2.4 Estudiar la correlación entre variables para identificar relaciones relevantes. |
 | 3️⃣ **Preprocesamiento de datos** | 3.1 Eliminar variables irrelevantes o redundantes.<br>3.2 Tratar valores nulos:<br>&nbsp;&nbsp;3.2.1 Imputación basada en lógicas de negocio.<br>&nbsp;&nbsp;3.2.2 Imputación con valores estimados usando técnicas estadísticas.<br>3.3 Aplicar one-hot encoding para variables categóricas y dejar los datos listos para los modelos. |
 | 4️⃣ **Balanceo de clases** | 4.1 Ajustar el dataset para que los modelos no se sesguen hacia la clase mayoritaria.<br>4.2 Preparar el test para la evaluación final. |
@@ -131,6 +131,7 @@ Cada fila representa un cliente individual, identificado por un código único (
 </table>
 
 --------
+
 
 
 
