@@ -30,7 +30,7 @@ Para resolver esto, el banco nos proporcionará datos de sus clientes, y nuestro
 
 <table>
   <tr>
-    <th style="width: 180px;">Fase</th>
+    <th style="width: 220px;">Fase</th>
     <th>Qué se hace</th>
   </tr>
 
@@ -206,6 +206,7 @@ Cada fila representa un cliente individual, identificado por un código único (
 </table>
 
 --------
+
 
 
 
