@@ -55,7 +55,7 @@ Para resolver esto, el banco nos proporcionará datos de sus clientes, y nuestro
             <li>Imputación con valores estimados usando técnicas estadísticas</li>
           </ul>
         </li>
-        <li>Aplicar one-hot encoding para variables categóricas y dejar los datos listos para los modelos</li>
+        <li>Aplicar one-hot encoding para variables categóricas</li>
       </ul>
     </td>
   </tr>
@@ -206,6 +206,7 @@ Cada fila representa un cliente individual, identificado por un código único (
 </table>
 
 --------
+
 
 
 
