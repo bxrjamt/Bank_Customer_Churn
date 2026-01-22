@@ -12,6 +12,40 @@ Para resolver esto, el banco nos proporcionará datos de sus clientes, y nuestro
 3. **Generar recomendaciones personalizadas** basadas en los datos, como incentivos o mejoras en los servicios, que aumenten la retención y la satisfacción de los clientes.  
 
 --------
+## 🧾 Descripción del dataset
+
+Este dataset se obtuvo de **Kaggle** y contiene información de los clientes de un banco. Está en formato **CSV** y tiene:  
+
+- **Filas:** 10,127  
+- **Columnas:** 21  
+
+Cada fila representa un cliente individual, identificado por un código único (su número de cuenta), e incluye variables demográficas, socioeconómicas y, principalmente, variables relacionadas con el uso de la tarjeta, las transacciones realizadas y la relación del cliente con el banco durante los últimos 12 meses. La variable objetivo es **Attrition_Flag**, que indica si un cliente ha abandonado el servicio (`Attrited Customer`) o sigue activo (`Existing Customer`).
+
+![](images/dataset.png)
+
+- **CLIENTNUM**: número de cuenta del cliente. 
+- **Attrition_Flag**: estado del cliente (`Existing Customer`, `Attrited Customer`).
+- **Customer_Age**: edad del cliente.
+- **Gender**: género del cliente (`M`,`F`).
+- **Dependent_count**: número de personas dependientes del cliente.
+- **Education_Level**: nivel educativo del cliente (`Uneducated`, `High School`, `Graduate`, `College`, `Post-Graduate`, `Doctorate` y `Unknown`). 
+- **Marital_Status**: estado civil del cliente (`Single`, `Married`, `Divorced` y `Unknown`).
+- **Income_Category**: categoría de ingresos del cliente (`Less than $40K`, `$40K-$60K`, `$60K-$80K`, `$80K-$120K`, `$120K+` y `Unknown`).  
+- **Card_Category**: tipo de tarjeta utilizada (`Blue`, `Silver`, `Gold` y `Platinum`). 
+- **Months_on_Book**: tiempo como cliente en meses
+- **Total_Relationship_Count**: número de productos utilizados por los clientes en el banco.  
+- **Months_Inactive_12_mon**: periodo de inactividad en los últimos 12 meses.  
+- **Contacts_Count_12_mon**: número de interacciones entre el banco y el cliente en los últimos 12 meses.  
+- **Credit_Limit**: límite nominal de transacción de la tarjeta de crédito en un periodo. 
+- **Total_Revolving_Bal**: fondos totales utilizados en un periodo.  
+- **Avg_Open_To_Buy**: diferencia entre el límite de crédito asignado a la cuenta del titular y el saldo actual.
+- **Avg_Utilization_Ratio**: porcentaje de utilización de la tarjeta de crédito.
+- **Total_Trans_Amt**: importe total de las transacciones en los últimos 12 meses.
+- **Total_Trans_Ct**: número total de transacciones realizadas en los últimos 12 meses.
+- **Total_Amt_Chng_Q4_Q1**: incremento del importe de transacciones del cliente entre el cuarto y el primer trimestre.  
+- **Total_Ct_Chng_Q4_Q1**: incremento del número de transacciones del cliente entre el cuarto y el primer trimestre. 
+
+--------
 ## 🎯 Fases del proyecto
 
 ![](images/phases.png)
@@ -100,68 +134,6 @@ Para resolver esto, el banco nos proporcionará datos de sus clientes, y nuestro
   </tr>
 </table>
 
-
-
---------
-
-## 📁 Estructura del proyecto
-
-```
-bank_customer_churn_project/
-│
-├── data/
-│   ├── raw/                 # Dataset original
-│   │   └── BankChurners.csv
-│   └── processed/           # Dataset limpio y preparado para el análisis y modelado
-│
-├── notebooks/
-│   └── customer_retention_analysis.ipynb  # Notebook principal donde se realiza todo el flujo de trabajo
-│
-├── src/
-│   └── app.py               # Aplicación interactiva para que el banco pueda simular escenarios de retención y tomar decisiones basadas en los datos.  
-│
-├── images/                  # Gráficos generados en el análisis para documentar y visualizar insights importantes
-│   └── dataset.png
-│
-├── README.md                
-└── requirements.txt         # Librerías necesarias para instalar
-```
-
---------
-## 🧾 Descripción del dataset
-
-Este dataset se obtuvo de **Kaggle** y contiene información de los clientes de un banco. Está en formato **CSV** y tiene:  
-
-- **Filas:** 10,127  
-- **Columnas:** 21  
-
-Cada fila representa un cliente individual, identificado por un código único (su número de cuenta), e incluye variables demográficas, socioeconómicas y, principalmente, variables relacionadas con el uso de la tarjeta, las transacciones realizadas y la relación del cliente con el banco durante los últimos 12 meses. La variable objetivo es **Attrition_Flag**, que indica si un cliente ha abandonado el servicio (`Attrited Customer`) o sigue activo (`Existing Customer`).
-
-![](images/dataset.png)
-
-- **CLIENTNUM**: número de cuenta del cliente. 
-- **Attrition_Flag**: estado del cliente (`Existing Customer`, `Attrited Customer`).
-- **Customer_Age**: edad del cliente.
-- **Gender**: género del cliente (`M`,`F`).
-- **Dependent_count**: número de personas dependientes del cliente.
-- **Education_Level**: nivel educativo del cliente (`Uneducated`, `High School`, `Graduate`, `College`, `Post-Graduate`, `Doctorate` y `Unknown`). 
-- **Marital_Status**: estado civil del cliente (`Single`, `Married`, `Divorced` y `Unknown`).
-- **Income_Category**: categoría de ingresos del cliente (`Less than $40K`, `$40K-$60K`, `$60K-$80K`, `$80K-$120K`, `$120K+` y `Unknown`).  
-- **Card_Category**: tipo de tarjeta utilizada (`Blue`, `Silver`, `Gold` y `Platinum`). 
-- **Months_on_Book**: tiempo como cliente en meses
-- **Total_Relationship_Count**: número de productos utilizados por los clientes en el banco.  
-- **Months_Inactive_12_mon**: periodo de inactividad en los últimos 12 meses.  
-- **Contacts_Count_12_mon**: número de interacciones entre el banco y el cliente en los últimos 12 meses.  
-- **Credit_Limit**: límite nominal de transacción de la tarjeta de crédito en un periodo. 
-- **Total_Revolving_Bal**: fondos totales utilizados en un periodo.  
-- **Avg_Open_To_Buy**: diferencia entre el límite de crédito asignado a la cuenta del titular y el saldo actual.
-- **Avg_Utilization_Ratio**: porcentaje de utilización de la tarjeta de crédito.
-- **Total_Trans_Amt**: importe total de las transacciones en los últimos 12 meses.
-- **Total_Trans_Ct**: número total de transacciones realizadas en los últimos 12 meses.
-- **Total_Amt_Chng_Q4_Q1**: incremento del importe de transacciones del cliente entre el cuarto y el primer trimestre.  
-- **Total_Ct_Chng_Q4_Q1**: incremento del número de transacciones del cliente entre el cuarto y el primer trimestre. 
-
-
 --------
 ## 🛠️ Herramientas utilizadas
 <table>
@@ -206,6 +178,30 @@ Cada fila representa un cliente individual, identificado por un código único (
 </table>
 
 --------
+## 📁 Estructura del proyecto
+
+```
+bank_customer_churn_project/
+│
+├── data/
+│   ├── raw/                 # Dataset original
+│   │   └── BankChurners.csv
+│   └── processed/           # Dataset limpio y preparado para el análisis y modelado
+│
+├── notebooks/
+│   └── customer_retention_analysis.ipynb  # Notebook principal donde se realiza todo el flujo de trabajo
+│
+├── src/
+│   └── app.py               # Aplicación interactiva para que el banco pueda simular escenarios de retención y tomar decisiones basadas en los datos.  
+│
+├── images/                  # Gráficos generados en el análisis para documentar y visualizar insights importantes
+│   └── dataset.png
+│
+├── README.md                
+└── requirements.txt         # Librerías necesarias para instalar
+```
+--------
+
 
 
 
