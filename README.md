@@ -98,16 +98,6 @@ Para resolver esto, el banco nos proporcionará datos de sus clientes, y nuestro
       </ul>
     </td>
   </tr>
-
-  <tr>
-    <td>8️⃣ <b>Envío de correo</b></td>
-    <td>
-      <ul>
-        <li>Ejecutar la campaña de retención con los clientes identificados como en riesgo</li>
-      </ul>
-    </td>
-  </tr>
-
 </table>
 
 
@@ -216,6 +206,7 @@ Cada fila representa un cliente individual, identificado por un código único (
 </table>
 
 --------
+
 
 
 
