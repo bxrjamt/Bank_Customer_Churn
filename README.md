@@ -181,26 +181,23 @@ Cada fila representa un cliente individual, identificado por un código único (
 ## 📁 Estructura del proyecto
 
 ```
-bank_customer_churn_project/
-│
+Bank_Customer_Churn/
 ├── data/
-│   ├── raw/                 # Dataset original
-│   │   └── BankChurners.csv
-│   └── processed/           # Dataset limpio y preparado para el análisis y modelado
-│
+│   ├── raw/
+|   |   └── BankChurners.csv         # Dataset original
+│   └── processed/
+│       └── clientes_inferencia.csv  # Dataset final preparado para inferencia
+├── models/
+│   └── modelo_churn.joblib    # Modelo XGBoost entrenado
 ├── notebooks/
 │   └── customer_retention_analysis.ipynb  # Notebook principal donde se realiza todo el flujo de trabajo
-│
 ├── src/
-│   └── app.py               # Aplicación interactiva para que el banco pueda simular escenarios de retención y tomar decisiones basadas en los datos.  
-│
-├── images/                  # Gráficos generados en el análisis para documentar y visualizar insights importantes
-│   └── dataset.png
-│
-├── README.md                
-└── requirements.txt         # Librerías necesarias para instalar
+│   └── app.py                 # Aplicación Streamlit
+├── requirements.txt           # Dependencias necesarias
+└── README.md                  
 ```
 --------
+
 
 
 
