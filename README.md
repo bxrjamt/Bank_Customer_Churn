@@ -32,7 +32,7 @@ Cada fila representa un cliente individual, identificado por un código único (
 - **Marital_Status**: estado civil del cliente (`Single`, `Married`, `Divorced` y `Unknown`).
 - **Income_Category**: categoría de ingresos del cliente (`Less than $40K`, `$40K-$60K`, `$60K-$80K`, `$80K-$120K`, `$120K+` y `Unknown`).  
 - **Card_Category**: tipo de tarjeta utilizada (`Blue`, `Silver`, `Gold` y `Platinum`). 
-- **Months_on_Book**: tiempo como cliente en meses
+- **Months_on_book**: tiempo como cliente en meses
 - **Total_Relationship_Count**: número de productos utilizados por los clientes en el banco.  
 - **Months_Inactive_12_mon**: periodo de inactividad en los últimos 12 meses.  
 - **Contacts_Count_12_mon**: número de interacciones entre el banco y el cliente en los últimos 12 meses.  
@@ -197,6 +197,7 @@ Bank_Customer_Churn/
 └── README.md                  
 ```
 --------
+
 
 
 
