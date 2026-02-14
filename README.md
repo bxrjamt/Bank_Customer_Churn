@@ -147,12 +147,13 @@ Cada fila representa un cliente individual, identificado por un código único (
 
 Esta aplicación, desarrollada con **Streamlit**, permite al banco identificar y priorizar rápidamente los clientes con mayor riesgo de abandono. La interfaz ofrece herramientas interactivas para:
 
-- **Filtrar clientes** por edad, número de productos, inactividad y otros criterios.
-- **Ajustar el umbral de riesgo** mediante un **slider**, seleccionando qué probabilidad de churn se considera “alto riesgo”. 
-- **Visualizar la probabilidad de churn** de cada cliente calculada por el modelo de Machine Learning. 
+- **Filtrar clientes** por rango de edad y número de productos.
+- **Ajustar el umbral de riesgo** mediante un **slider**, seleccionando qué probabilidad de churn se considera “alto riesgo”.
+- **Monitorear KPIs** en tiempo real: total de clientes en riesgo, porcentaje en riesgo y riesgo medio.
+- **Conocer la probabilidad de churn** de cada cliente calculada por el modelo de Machine Learning. 
 - **Analizar perfiles individuales** y detectar variables críticas que incrementan el riesgo. 
-- **Generar comunicaciones personalizadas** de retención adaptadas al perfil del cliente.  
-- **Monitorear KPIs** en tiempo real: total de clientes analizados, porcentaje en riesgo y riesgo medio.
+- **Generar comunicaciones personalizadas** de retención adaptadas al perfil del cliente.
+- **Visualizar el comportamiento general de los clientes** mediante gráficos según la probabilidad de churn.
 
 <table cellpadding="0" cellspacing="0" style="border-spacing:0;">
   <tr>
@@ -246,6 +247,7 @@ Bank_Customer_Churn/
 <a href="https://github.com/bxrjamt">
 <img src="https://img.shields.io/badge/GitHub-bxrjamt-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
+
 
 
 
