@@ -144,9 +144,9 @@ Cada fila representa un cliente individual, identificado por un código único (
 </table>
 
 --------
-## 🖥 Previsualización de la App Interactiva
+## 🖥 Previsualización de la app interactiva
 
-Esta aplicación, desarrollada con **Streamlit**, permite al banco identificar y priorizar rápidamente los clientes con mayor riesgo de abandono (churn). La interfaz ofrece herramientas interactivas para:
+Esta aplicación, desarrollada con **Streamlit**, permite al banco identificar y priorizar rápidamente los clientes con mayor riesgo de abandono. La interfaz ofrece herramientas interactivas para:
 
 - **Filtrar clientes** por edad, número de productos, inactividad y otros criterios.
 - **Ajustar el umbral de riesgo** mediante un **slider**, seleccionando qué probabilidad de churn se considera “alto riesgo”. 
@@ -236,6 +236,7 @@ Bank_Customer_Churn/
 <a href="https://github.com/bxrjamt">
 <img src="https://img.shields.io/badge/GitHub-bxrjamt-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
+
 
 
 
