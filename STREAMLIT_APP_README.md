@@ -30,4 +30,4 @@ python src/test_app.py
 streamlit run src/app.py
 ```
 
-La aplicación se abrirá automáticamente en tu navegador en `http://localhost:8501`
+La aplicación se abrirá automáticamente en tu navegador en `http://localhost:8501`.
