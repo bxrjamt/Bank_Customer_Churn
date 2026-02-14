@@ -1,4 +1,4 @@
-# Abandono de Clientes en un Banco
+# 🏦 Abandono de Clientes en un Banco
 Uno de los mayores desafíos para los bancos hoy en día es **evitar que sus clientes abandonen sus productos (churn)**, sobre todo en servicios como las tarjetas de crédito. Cada vez que un cliente deja de usar su tarjeta o cancela el producto, el banco no solo **pierde los ingresos** de las transacciones, sino también la oportunidad de **generar rentabilidad a largo plazo**. Además, atraer a un nuevo cliente suele ser **mucho más caro** que retener a uno existente.  
 
 ## 📌 CASO PRÁCTICO
@@ -154,7 +154,11 @@ Esta aplicación, desarrollada con **Streamlit**, permite al banco identificar y
 - **Generar comunicaciones personalizadas** de retención adaptadas al perfil del cliente.  
 - **Monitorear KPIs** en tiempo real: total de clientes analizados, porcentaje en riesgo y riesgo medio.  
 
-![Previsualización Streamlit](ruta/a/tu_captura_o_gif.gif)
+<div style="display: flex; gap: 10px;">
+  <img src="images/App_Picture_1.png" alt="Previsualización 1" width="32%">
+  <img src="images/App_Picture_2.png" alt="Previsualización 2" width="32%">
+  <img src="images/App_Picture_3.png" alt="Previsualización 3" width="32%">
+</div>
 
 Esta solución permite al banco **pasar de un enfoque reactivo a uno proactivo**, reduciendo la pérdida de clientes y optimizando las campañas de retención mediante **decisiones basadas en datos e IA**.  
 
@@ -216,7 +220,8 @@ Bank_Customer_Churn/
 ├── notebooks/
 │   └── customer_retention_analysis.ipynb  # Notebook principal donde se realiza todo el flujo de trabajo
 ├── src/
-│   └── app.py                 # Aplicación Streamlit
+│   └── app.py
+|   └── test_app.py                 # Aplicación Streamlit
 ├── requirements.txt           # Dependencias necesarias
 └── README.md                  
 ```
@@ -235,6 +240,7 @@ Bank_Customer_Churn/
 <a href="https://github.com/bxrjamt">
 <img src="https://img.shields.io/badge/GitHub-bxrjamt-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
+
 
 
 
