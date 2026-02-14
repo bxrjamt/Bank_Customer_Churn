@@ -230,6 +230,7 @@ Bank_Customer_Churn/
 │   └── app.py                 # Aplicación Streamlit
 |   └── test_app.py                 
 ├── requirements.txt           # Dependencias necesarias
+├── STREAMLIT_APP_README.md    # Instrucciones para usar la app
 └── README.md                  
 ```
 --------
@@ -247,6 +248,7 @@ Bank_Customer_Churn/
 <a href="https://github.com/bxrjamt">
 <img src="https://img.shields.io/badge/GitHub-bxrjamt-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
+
 
 
 
