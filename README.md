@@ -1,5 +1,5 @@
 
- # Retención de Clientes en un Banco
+ # Abandono de Clientes en un Banco
 Uno de los mayores desafíos para los bancos hoy en día es **evitar que sus clientes abandonen sus productos (churn)**, sobre todo en servicios como las tarjetas de crédito. Cada vez que un cliente deja de usar su tarjeta o cancela el producto, el banco no solo **pierde los ingresos** de las transacciones, sino también la oportunidad de **generar rentabilidad a largo plazo**. Además, atraer a un nuevo cliente suele ser **mucho más caro** que retener a uno existente.  
 
 ## 📌 CASO PRÁCTICO
@@ -236,6 +236,7 @@ Bank_Customer_Churn/
 <a href="https://github.com/bxrjamt">
 <img src="https://img.shields.io/badge/GitHub-bxrjamt-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
+
 
 
 
