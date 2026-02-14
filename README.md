@@ -212,21 +212,19 @@ Bank_Customer_Churn/
 
 ## 📬 Contacto
 
-<p style="margin: 0;">
-  <a href="mailto:bmactor2001@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-bmactor2001%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"
-         style="margin-left: 70px;"/>
-  </a>
-</p>
+<a href="mailto:bmactor2001@gmail.com">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Gmail-bmactor2001%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+<br>
+<a href="https://www.linkedin.com/in/borjamacias">
+<img src="https://img.shields.io/badge/LinkedIn-Borja%20Macías-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="https://github.com/bxrjamt">
+<img src="https://img.shields.io/badge/GitHub-bxrjamt-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
-<p style="margin: 0;">
-  <a href="https://www.linkedin.com/in/borjamacias">
-    <img src="https://img.shields.io/badge/LinkedIn-Borja%20Macías-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://github.com/bxrjamt">
-    <img src="https://img.shields.io/badge/GitHub-bxrjamt-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
+
 
 
 
