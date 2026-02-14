@@ -125,7 +125,16 @@ Cada fila representa un cliente individual, identificado por un código único (
   </tr>
 
   <tr>
-    <td>7️⃣ <b>Generación de comunicaciones con GPT</b></td>
+    <td>7️⃣ <b>Inferencia</b></td>
+    <td>
+      <ul>
+        <li>Aplicar el modelo final entrenado a los nuevos clientes, estimando la probabilidad de churn de cada uno</li>
+      </ul>
+    </td>
+</tr>
+  
+  <tr>
+    <td>8️⃣ <b>Generación de comunicaciones con GPT</b></td>
     <td>
       <ul>
         <li>Usar IA generativa para crear mensajes personalizados que animen a los clientes a quedarse</li>
@@ -176,6 +185,9 @@ Cada fila representa un cliente individual, identificado por un código único (
     </td>
   </tr>
 </table>
+--------
+
+Esta solución permite al banco pasar de un enfoque reactivo a uno proactivo, reduciendo la pérdida de clientes y optimizando las campañas de retención mediante decisiones basadas en datos e IA.
 
 --------
 ## 📁 Estructura del proyecto
@@ -198,7 +210,11 @@ Bank_Customer_Churn/
 ```
 --------
 
+## 📬 Contacto
 
+![Gmail](https://img.shields.io/badge/Gmail-bmactor2001%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+![LinkedIn](https://img.shields.io/badge/LinkedIn-Borja%20Macías-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-bxrjamt-181717?style=for-the-badge&logo=github&logoColor=white)
 
 
 
