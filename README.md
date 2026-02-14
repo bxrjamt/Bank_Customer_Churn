@@ -153,14 +153,14 @@ Esta aplicación, desarrollada con **Streamlit**, permite al banco identificar y
 - **Analizar perfiles individuales** y detectar variables críticas que incrementan el riesgo. 
 - **Generar comunicaciones personalizadas** de retención adaptadas al perfil del cliente.  
 - **Monitorear KPIs** en tiempo real: total de clientes analizados, porcentaje en riesgo y riesgo medio.
-- 
-<div style="display: flex; gap: 10px;">
-  <img src="images/App_Picture_1.png" alt="Previsualización 1" width="49%">
-  <img src="images/App_Picture_2.png" alt="Previsualización 2" width="49%">
+
+<div style="display: flex; margin-bottom: 0px;">
+  <img src="images/App_Picture_1.png" alt="Previsualización 1" width="50%" style="margin:0; padding:0;">
+  <img src="images/App_Picture_2.png" alt="Previsualización 2" width="50%" style="margin:0; padding:0;">
 </div>
 
-<div style="margin-top: 10px;">
-  <img src="images/App_Picture_3.png" alt="Previsualización 3" width="50%">
+<div style="margin:0; padding:0;">
+  <img src="images/App_Picture_3.png" alt="Previsualización 3" width="100%" style="margin:0; padding:0;">
 </div>
 
 Esta solución permite al banco **pasar de un enfoque reactivo a uno proactivo**, reduciendo la pérdida de clientes y optimizando las campañas de retención mediante **decisiones basadas en datos e IA**.  
@@ -243,6 +243,7 @@ Bank_Customer_Churn/
 <a href="https://github.com/bxrjamt">
 <img src="https://img.shields.io/badge/GitHub-bxrjamt-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
+
 
 
 
