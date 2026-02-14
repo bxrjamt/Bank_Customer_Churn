@@ -213,7 +213,7 @@ Bank_Customer_Churn/
 │   └── processed/
 │       └── clientes_inferencia.csv  # Dataset final preparado para inferencia
 ├── models/
-│   └── modelo_churn.joblib    # Modelo XGBoost entrenado
+│   └── modelo_churn.joblib    # Modelo final XGBoost entrenado
 ├── notebooks/
 │   └── customer_retention_analysis.ipynb  # Notebook principal donde se realiza todo el flujo de trabajo
 ├── src/
@@ -236,6 +236,7 @@ Bank_Customer_Churn/
 <a href="https://github.com/bxrjamt">
 <img src="https://img.shields.io/badge/GitHub-bxrjamt-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
+
 
 
 
