@@ -1,3 +1,21 @@
+# Banco Horizonte — Sistema de Retención (Streamlit)
+
+Pequeña aplicación demo para identificar clientes en riesgo de churn, analizar su perfil y generar comunicaciones de retención.
+
+Ejecución rápida:
+
+```bash
+pip install -r requirements.txt
+python test_app.py
+streamlit run src/app.py
+```
+
+Archivos clave:
+- `src/app.py` → aplicación Streamlit
+- `data/processed/clientes_inferencia.csv` → dataset de inferencia (no modificar)
+- `models/modelo_churn.joblib` → modelo guardado (no reentrenar)
+
+Contacto: desarrollo interno — demo
 
  # Abandono de Clientes en un Banco
 Uno de los mayores desafíos para los bancos hoy en día es **evitar que sus clientes abandonen sus productos (churn)**, sobre todo en servicios como las tarjetas de crédito. Cada vez que un cliente deja de usar su tarjeta o cancela el producto, el banco no solo **pierde los ingresos** de las transacciones, sino también la oportunidad de **generar rentabilidad a largo plazo**. Además, atraer a un nuevo cliente suele ser **mucho más caro** que retener a uno existente.  
